@@ -1,7 +1,7 @@
 <template>
   <nav class="nav-bar pt-3 row">
     <div class="col-6">
-      <img class="logo" src="../../../design/assets/logo.svg" alt="" />
+      <img class="logo" src="../../../design/assets/logo.svg" alt="food spector logo" />
     </div>
     <div class="col-2 ml-auto">
       <img class="hamburger" src="../../assets/icons/hamburger.svg" alt="" />
