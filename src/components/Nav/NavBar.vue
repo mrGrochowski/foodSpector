@@ -39,7 +39,6 @@ export default {
   width: auto;
 }
 .hamburger {
-  margin-left: auto;
   max-height: 30px;
   width: auto;
 }
