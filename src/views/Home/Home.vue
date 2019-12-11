@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <wellcome-jumbo />
+    <wellcome-jumbo :header="'Koniec z przeterminowanym jedzeniem'"></wellcome-jumbo>
   </div>
 </template>
 
@@ -14,3 +14,8 @@ export default {
   }
 };
 </script>
+<style lang="scss" scoped>
+.home {
+  height: 100%;
+}
+</style>
