@@ -1,7 +1,12 @@
 <template>
-  <nav class="nav-bar row">
-    <div class="logo col">🍔 FoodSpector</div>
-    <NavItem>Cokolwiek</NavItem>
+  <nav class="nav-bar pt-3 row">
+    <div class="col-6">
+      <img class="logo" src="../../../design/assets/logo.svg" alt="" />
+    </div>
+    <div class="col-2 ml-auto">
+      <img class="hamburger" src="../../assets/icons/hamburger.svg" alt="" />
+    </div>
+    <!-- <NavItem></NavItem> -->
   </nav>
 </template>
 
@@ -22,11 +27,20 @@ export default {
 };
 </script>
 
-
 <style lang="scss" scoped>
 .nav-bar {
   position: absolute;
   width: 100%;
   z-index: 1;
+}
+
+.logo {
+  max-height: 30px;
+  width: auto;
+}
+.hamburger {
+  margin-left: auto;
+  max-height: 30px;
+  width: auto;
 }
 </style>
